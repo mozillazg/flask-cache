@@ -674,7 +674,7 @@ class Cache(object):
         """
         Delete the version hash associated with the function.
 
-        ..warning::
+        .. warning::
 
             Performing this operation could leave keys behind that have
             been created with this version hash. It is up to the application
